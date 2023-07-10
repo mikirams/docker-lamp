@@ -8,8 +8,11 @@
 <?php
 // define variables and set to empty values
 $name = $email = $gender = $comment = $website = "";
+//imprimo estas variables para comprobar la diferencia entre la primera vez 
+//que carga y la segunda vez que la página es llamada
 echo $_SERVER["REQUEST_METHOD"], "<br>";
 echo $_SERVER["PHP_SELF"], "<br>";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
