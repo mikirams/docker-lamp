@@ -8,7 +8,7 @@
     <body>
         <div class="container-fluid">
             <?php
-                echo "<h1>¡Hola, Miguel te da la bienvenida!</h1>";
+                echo "<h1>¡Hola, Miguel R. te da la bienvenida!</h1>";
 
                 $conn = mysqli_connect('db', 'root', 'test', "dbname");
 
