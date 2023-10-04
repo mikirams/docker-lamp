@@ -5,5 +5,5 @@ function familyName($fname, $year) {
 
 familyName("Hege", "1974");
 familyName("Stale", "1978");
-familyName("Kai Jim", "1983");
+familyName("Miguel", "1983");
 ?>
