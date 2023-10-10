@@ -12,7 +12,7 @@
 
                 $conn = mysqli_connect('db', 'root', 'test', "dbname");
 
-                $query = 'SELECT * From Person';
+                $query = 'SELECT * From Person WHERE name LIKE "M%"';
                 $result = mysqli_query($conn, $query);
 
                 echo '<table class="table table-striped">';
